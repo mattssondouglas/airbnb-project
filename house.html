@@ -120,7 +120,7 @@
           >
           <!-- Avatar and 'hosted by' + name goes HERE. Make sure span is block -->
           <div class="row">
-            <div class="col-1">
+            <div class="col-1 text-end">
               <img
                 src="https://randomuser.me/api/portraits/men/11.jpg"
                 class="rounded-circle avatarimg"
@@ -143,13 +143,13 @@
           </p>
         </div>
         <div class="col">
-          <div class="card shadow" style="width: 18rem;">
+          <div class="card shadow float-end reqcard" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">$350/night</h5>
               <span>0 reviews</span>
               <form class="requestBooking" action="index.html" method="post">
                 <textarea
-                  class="form-control"
+                  class="form-control reqform"
                   aria-label="With textarea"
                   placeholder="Send the host a message..."
                 ></textarea>
@@ -160,15 +160,20 @@
         </div>
         <!-- Leave a Review -->
         <div class="col">
-          <h6>0 reviews</h6>
-          <span>Leave a review</span>
+          <h2>0 reviews</h2>
           <form class="leaveReview" action="index.html" method="post">
+            <label for="">Leave a review</label>
             <textarea
-              class="form-control"
+              class="form-control reviewarea"
               aria-label="With textarea"
             ></textarea>
-            <!-- Insert thumbs up and thumbs down buttons HERE (maybe radio and style?) -->
-            <a href="#" class="btn btn-primary">Submit</a>
+            <button type="button" class="btn btn-outline-secondary">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+            <a href="#" class="btn btn-primary d-block reviewsubmit">Submit</a>
           </form>
         </div>
       </div>

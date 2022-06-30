@@ -40,3 +40,15 @@ h5 a {
   height: 30px;
   display: inline-block;
 }
+
+.reqform {
+  height: 150px;
+}
+
+.reviewsubmit {
+  width: 88px;
+}
+
+.reviewarea {
+  height: 150px;
+}
