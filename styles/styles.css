@@ -34,3 +34,9 @@ h5 a {
   height: 20px;
   display: inline-block;
 }
+
+.avatardescr {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
