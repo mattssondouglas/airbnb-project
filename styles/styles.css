@@ -41,9 +41,3 @@ h5 a {
 .reviewavatar {
   height: 60px;
 }
-
-.descriptiontextarea {
-  height: 150px;
-}
-
-/* textarea, do rows instead of setting custom height in CSS */
