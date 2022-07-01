@@ -11,11 +11,6 @@ h5 a {
   width: 100%;
 }
 
-.row-cols-3 img {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
 .loginBody {
   background-image: url('https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg');
   height: 100vh;
@@ -25,11 +20,6 @@ h5 a {
 }
 
 .centerbox {
-  height: 300px;
-  width: 400px;
-}
-
-.signupbox {
   width: 400px;
 }
 
@@ -49,16 +39,8 @@ h5 a {
   width: 20px;
 }
 
-.reqform {
-  height: 150px;
-}
-
 .reviewsubmit {
   width: 88px;
-}
-
-.reviewarea {
-  height: 150px;
 }
 
 .reviewavatar {
