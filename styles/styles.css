@@ -45,3 +45,5 @@ h5 a {
 .descriptiontextarea {
   height: 150px;
 }
+
+/* textarea, do rows instead of setting custom height in CSS */
