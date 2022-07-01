@@ -49,7 +49,7 @@
           />
         </div>
         <div class="col">
-          <div class="row row-cols-3 py-1 gy-2 img-fluid">
+          <div class="row row-cols-3 gy-2 img-fluid border-bottom">
             <div class="col">
               <img
                 src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png"
@@ -104,7 +104,6 @@
                 alt="houseSmall1"
               />
             </div>
-            <span class="border-bottom"></span>
           </div>
         </div>
       </div>
@@ -112,37 +111,43 @@
     <!-- Description and Request Booking -->
     <div class="container">
       <div class="row row-cols-2">
-        <div class="col-8">
+        <div class="col-8 mt-3">
           <h1>Luxury Villa in Chaweng</h1>
           <span
             ><i class="fa-solid fa-map-location"></i> Koh Samui
             <i class="fa-regular fa-circle-dot"></i> 4 Rooms</span
           >
-          <!-- Avatar and 'hosted by' + name goes HERE. Make sure span is block -->
-          <div class="row">
-            <div class="col-1 text-end">
+          <div class="row-2">
+            <div class="col-1">
               <img
                 src="https://randomuser.me/api/portraits/men/11.jpg"
-                class="rounded-circle avatarimg"
+                class="rounded-circle avatardescr"
                 alt="avatardescr"
               />
             </div>
             <div class="col-11">
-              <small>Hosted by Douglas</small>
+              <div class="row-1">
+                <div class="col text-secondary">
+                  Hosted by
+                </div>
+                <div class="col">
+                  Douglas
+                </div>
+              </div>
             </div>
+            <p>
+              Stylish, tropical, luxurious, airy and absolute stunning view over
+              the bay of Chaweng Beach, this villa combines form and function,
+              enjoying magnificient views of Samui's small islands and the sea
+              beyond. With 520sqm of indoor/outdoorliving space with 7 ensuite
+              bedrooms, large living area, infinity pool, garden, air
+              conditioned gym, professional pool table, BBQ and Sala, this villa
+              is perfect for up to 14 adults with 260sqm (2798sqfeet) of living
+              space and 260sqm of outdoor space.
+            </p>
           </div>
-          <p>
-            Stylish, tropical, luxurious, airy and absolute stunning view over
-            the bay of Chaweng Beach, this villa combines form and function,
-            enjoying magnificient views of Samui's small islands and the sea
-            beyond. With 520sqm of indoor/outdoorliving space with 7 ensuite
-            bedrooms, large living area, infinity pool, garden, air conditioned
-            gym, professional pool table, BBQ and Sala, this villa is perfect
-            for up to 14 adults with 260sqm (2798sqfeet) of living space and
-            260sqm of outdoor space.
-          </p>
         </div>
-        <div class="col-4">
+        <div class="col-4 mt-3">
           <div class="card shadow float-end reqcard" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">$350/night</h5>
@@ -153,7 +158,7 @@
                   aria-label="With textarea"
                   placeholder="Send the host a message..."
                 ></textarea>
-                <a href="#" class="btn btn-primary">Request Booking</a>
+                <a href="#" class="btn btn-primary mt-3">Request Booking</a>
               </form>
             </div>
           </div>
@@ -178,13 +183,15 @@
               class="form-control reviewarea"
               aria-label="With textarea"
             ></textarea>
-            <button type="button" class="btn btn-outline-secondary">
+            <button type="button" class="btn btn-outline-secondary mt-2">
               <i class="fa-regular fa-thumbs-up"></i>
             </button>
-            <button type="button" class="btn btn-outline-secondary">
+            <button type="button" class="btn btn-outline-secondary mt-2">
               <i class="fa-regular fa-thumbs-down"></i>
             </button>
-            <a href="#" class="btn btn-primary d-block reviewsubmit">Submit</a>
+            <a href="#" class="btn btn-primary d-block reviewsubmit mt-2"
+              >Submit</a
+            >
           </form>
         </div>
       </div>
@@ -197,7 +204,7 @@
               <img
                 src="https://randomuser.me/api/portraits/men/11.jpg"
                 alt="avatar"
-                class="reviewavatar rounded-circle mt-3"
+                class="reviewavatar rounded-circle m-3"
               />
             </div>
             <div class="col-10">
@@ -205,7 +212,7 @@
                 <div class="col" class="detailsReview">
                   <span class="text-secondary">02 Jan 2022 - 01:01</span>
                 </div>
-                <div class="col text-end">
+                <div class="col text-end mx-3">
                   <i class="fa-solid fa-thumbs-up"></i>
                 </div>
               </div>
@@ -229,7 +236,7 @@
               <img
                 src="https://randomuser.me/api/portraits/men/11.jpg"
                 alt="avatar"
-                class="reviewavatar rounded-circle mt-3"
+                class="reviewavatar rounded-circle m-3"
               />
             </div>
             <div class="col-10">
@@ -237,7 +244,7 @@
                 <div class="col" class="detailsReview">
                   <span class="text-secondary">02 Jan 2022 - 01:01</span>
                 </div>
-                <div class="col text-end">
+                <div class="col text-end mx-3">
                   <i class="fa-solid fa-thumbs-up"></i>
                 </div>
               </div>
